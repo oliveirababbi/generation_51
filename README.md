@@ -13,4 +13,4 @@ Contém exercícios e respostas dos seguintes temas:
 - Laços de Repetição;
 - Vetores e Matrizes.
 
-Elaborado por @BabbiOliveira
+Elaborado por @BabbiOliveira.
