@@ -1,6 +1,7 @@
 # BOOTCAMP GENERATION BRASIL 2022.1
 
-📁Repositório com toda a trajetória técnica da especialização em <b>PESSOA DESENVOLVEDORA JAVA FULL STACK JR</b>.
+📁Repositório com toda a trajetória técnica da especialização em 
+<b>PESSOA DESENVOLVEDORA JAVA FULL STACK JR</b>.
 
 <b>CONTEÚDO:</b>
 
