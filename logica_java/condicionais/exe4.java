@@ -1,4 +1,4 @@
-package exe_0104;
+package condicionais;
 
 import java.util.Scanner;
 
@@ -18,12 +18,12 @@ public class exe4 {
 		numero = leia.nextInt();
 		
 		if (numero%2==0) {
-		    par =	Math.sqrt(numero);
-		    System.out.println("\n"+Math.ceil(par));
+		    par = Math.sqrt(numero);
+		    System.out.printf("\n%2.2f",par);
 		}
 		else {
 			impar = Math.pow(numero, 2);
-			System.out.println("\n"+Math.ceil(impar));
+			System.out.printf("\n%2.2f",impar);
 		}
 		
 		//Solução por: Babbi Oliveira (2022)

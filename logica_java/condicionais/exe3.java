@@ -1,4 +1,4 @@
-package exe_0104;
+package condicionais;
 
 import java.util.Scanner;
 
