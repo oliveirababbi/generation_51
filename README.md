@@ -1,10 +1,11 @@
 # BOOTCAMP GENERATION BRASIL 2022.1
 
-Repositório com toda a trajetória técnica da especialização de PESSOA DESENVOLVEDORA JAVA FULL STACK JÚNIOR através do bootcamp da Generation.
+📁Repositório com toda a trajetória técnica da especialização em 
+<b>PESSOA DESENVOLVEDORA JAVA FULL STACK JR</b>.
 
-CONTEÚDO:
+<b>CONTEÚDO:</b>
 
-1. Lógica da Programação
+🌱 Lógica da Programação COM PORTUGOL
 
 Contém exercícios e respostas dos seguintes temas:
 
@@ -13,4 +14,11 @@ Contém exercícios e respostas dos seguintes temas:
 - Laços de Repetição;
 - Vetores e Matrizes.
 
-Elaborado por @BabbiOliveira.
+
+🌑 Lógica da Programação COM ECLIPSE (Java)
+
+Contém exercícios e respostas dos seguintes temas:
+
+- Laços Condicionais;
+
+Elaborado por @BabbiOliveira🏳️‍🌈 
