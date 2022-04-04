@@ -1,6 +1,6 @@
 # LAÇOS DE REPETIÇÃO - ECLIPSE IDE (2022)
 
-Soluções dos exercícios do dia 01/04/2022; 
+Soluções dos exercícios do dia 04/04/2022; 
 Módulo: Lógica da Programação; 
 Assunto: Laços de Repetição; 
 Professor: Luis Guerreiro; 
