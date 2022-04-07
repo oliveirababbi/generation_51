@@ -1,4 +1,4 @@
-# HERANÇA, POLIMORFISMO E COLEÇÕES - PORTUGOL STUDIO (2022)
+# HERANÇA, POLIMORFISMO E COLEÇÕES - SPRING TOOL (2022)
 
 Soluções dos exercícios do dia 07/04/2022;
 Módulo: Lógica da Programação;
