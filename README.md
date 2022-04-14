@@ -15,10 +15,20 @@ Contém exercícios e respostas dos seguintes temas:
 - Vetores e Matrizes.
 
 
-🌑 Lógica da Programação COM ECLIPSE (Java)
+🌑 Lógica da Programação COM ECLIPSE E SPRING TOOL (Java)
 
 Contém exercícios e respostas dos seguintes temas:
 
+- Estruturas Sequencias;
 - Laços Condicionais;
+- Laços de Repetição;
+- Arrays.
+
+Programação Orientada a Objetos (Java)
+
+- Orientação a Objetos;
+- Herança;
+- Polimorfismo;
+- Coleções.
 
 Elaborado por @BabbiOliveira🏳️‍🌈 
