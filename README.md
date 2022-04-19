@@ -6,8 +6,11 @@
 <b> 📝CONTEÚDO:</b>
 MÓDULO I:
 ✔️ Lógica da Programação;
+
 ✔️ Lógica da Programação (Java);
+
 ✔️ Programação Orientada a Objetos (Java);
+
 🐇Projeto Java I: Good Habbits;
 
 MÓDULO II:
