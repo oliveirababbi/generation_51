@@ -7,9 +7,9 @@ Professor: Luis Guerreiro;
 Programa utilizado: Spring Tool;
 Bootcamp: Generation Brasil 2022.1.
 
-Exercícios de Coleções;
+Exercício de Coleções;
 
-3. Crie uma um programa para trabalhar com estoque de uma loja, o programa deverá trabalhar com Collection do tipo List do Java para manipular os dados desse estoque, o programa deverá atender as seguintes funcionalidades:
+1. Crie uma um programa para trabalhar com estoque de uma loja, o programa deverá trabalhar com Collection do tipo List do Java para manipular os dados desse estoque, o programa deverá atender as seguintes funcionalidades:
 
 - Armazenar dados da list
 - Remover dados da list;
