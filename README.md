@@ -40,10 +40,10 @@ Contém exercícios e respostas dos seguintes assuntos:
 
 Software base com a intenção de incentivar bons hábitos de consumo, de acordo com ODS #12, e buscar informações de pesquisa sobre a forma de consumo dos participantes com a ideia de ajudar Joana, uma personagem fictícia, em sua coleta de dados.
 
-Disponível em: <a href = "https://github.com/oliveirababbi/bons-habitos"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+Disponível em: 
+<a href = "https://github.com/oliveirababbi/bons-habitos"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 
 Elaborado por @BabbiOliveira🏳️‍🌈 
-<div align="center">
   <a href="https://instagram.com/oliveirababbi" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href = "mailto:oliveirababbi@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/babboliveira" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
