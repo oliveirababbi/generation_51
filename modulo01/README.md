@@ -33,7 +33,7 @@ Contém exercícios e respostas dos seguintes assuntos:
 - Polimorfismo;
 - Coleções.
 
-🐇Projeto Java I: Good Habbits
+🐇Projeto Java I: Good Habits
 
 Software base com a intenção de incentivar bons hábitos de consumo, de acordo com ODS #12, e buscar informações de pesquisa sobre a forma de consumo dos participantes com a ideia de ajudar Joana, uma personagem fictícia, em sua coleta de dados.
 
