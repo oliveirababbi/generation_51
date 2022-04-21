@@ -13,9 +13,11 @@ MÓDULO I:
 
 ✔️ Programação Orientada a Objetos (Java);
 
-🐇Projeto Java I: Good Habbits;
+🐇Projeto Java I: Good Habits;
 
 MÓDULO II:
+
+✔️ Banco de Dados (MySQL);
 
 
 Elaborado por @BabbiOliveira🏳️‍🌈 
