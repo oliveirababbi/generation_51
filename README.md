@@ -1,11 +1,11 @@
 # BOOTCAMP GENERATION BRASIL 2022.1
 
 📁Repositório com toda a trajetória técnica da especialização em 
-<b>PESSOA DESENVOLVEDORA JAVA FULL STACK JR</b>.
+<b>PESSOA DESENVOLVEDORA JAVA FULL STACK JR</b> no bootcamp da <a href="https://brazil.generation.org/"> Generation Brasil</a>.
 
-<b> 📝CONTEÚDO:</b>
+### 📝CONTEÚDO:
 
-MÓDULO I:
+##### MÓDULO I:
 
 ✔️ Lógica da Programação;
 
@@ -13,11 +13,15 @@ MÓDULO I:
 
 ✔️ Programação Orientada a Objetos (Java);
 
-🐇Projeto Java I: Good Habits;
+🐇Projeto Java I: Good Habits.
 
-MÓDULO II:
+##### MÓDULO II:
 
 ✔️ Banco de Dados (MySQL);
+
+✔️ Criação de um blog pessoal com Spring Boot;
+
+🦀 Projeto Java II: Mangrove;
 
 
 Elaborado por @BabbiOliveira🏳️‍🌈 
