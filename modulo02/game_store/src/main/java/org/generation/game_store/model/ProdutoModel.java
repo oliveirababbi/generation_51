@@ -1,12 +1,19 @@
 package org.generation.game_store.model;
 
+import java.math.BigDecimal;
+
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Positive;
 import javax.validation.constraints.Size;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 @Entity
 @Table(name = "tb_product")
@@ -16,15 +23,26 @@ public class ProdutoModel {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id; 
 	
-	@NotBlank(message = "Entre com o nome do produto: ")
 	@Size(min = 2, max = 50)
 	private String nameProd;
 	
-	@NotBlank
+	@Positive
 	private int stock;
 	
-	@NotBlank
-	private double price;
+	@JsonFormat(shape = JsonFormat.Shape.STRING)
+    @Positive(message = "Digite um valor maior do que zero")
+    private BigDecimal price;
+	
+	@ManyToOne
+	private CategoriaModel categoria;
+
+	public CategoriaModel getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(CategoriaModel categoria) {
+		this.categoria = categoria;
+	}
 
 	public Long getId() {
 		return id;
@@ -34,15 +52,15 @@ public class ProdutoModel {
 		this.id = id;
 	}
 
-	public String getName() {
+	public String getNameProd () {
 		return nameProd;
 	}
 
-	public void setName(String nameProd) {
+	public void setNameProd (String nameProd) {
 		this.nameProd = nameProd;
 	}
 
-	public int getStock() {
+	public int getStock() { 
 		return stock;
 	}
 
@@ -50,13 +68,16 @@ public class ProdutoModel {
 		this.stock = stock;
 	}
 
-	public double getPrice() {
+	public BigDecimal getPrice() {
 		return price;
 	}
 
-	public void setPrice(double price) {
+	public void setPrice(BigDecimal price) {
 		this.price = price;
 	}
+
+
+
 
 	
 }

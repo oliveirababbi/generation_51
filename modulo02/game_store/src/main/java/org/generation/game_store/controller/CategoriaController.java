@@ -5,6 +5,7 @@ import java.util.List;
 import javax.validation.Valid;
 
 import org.generation.game_store.model.CategoriaModel;
+import org.generation.game_store.repository.CategoriaRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -24,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CategoriaController {
 	
 	@Autowired
-	private CategoriaController repository;
+	private CategoriaRepositorio repository;
 	
 	@GetMapping
 	public ResponseEntity <List<CategoriaModel>> getAll() {

@@ -1,9 +1,13 @@
 package org.generation.game_store.model;
 
+import java.util.List;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
@@ -19,6 +23,17 @@ public class CategoriaModel {
 	@NotBlank(message = "Entre com o nome do produto: ")
 	@Size(min = 2, max = 50)
 	private String nameCateg;
+	
+	@OneToMany(mappedBy = "categoria", cascade = CascadeType.REMOVE)
+	private List<ProdutoModel> produtos;
+
+	public List<ProdutoModel> getProdutos() {
+		return produtos;
+	}
+
+	public void setProdutos(List<ProdutoModel> produtos) {
+		this.produtos = produtos;
+	}
 
 	public Long getId() {
 		return id;

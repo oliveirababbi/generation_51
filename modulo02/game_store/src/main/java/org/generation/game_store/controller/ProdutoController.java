@@ -3,6 +3,7 @@ package org.generation.game_store.controller;
 import java.util.List;
 import javax.validation.Valid;
 import org.generation.game_store.model.ProdutoModel;
+import org.generation.game_store.repository.ProdutoRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProdutoController {
 		
 		@Autowired
-		private ProdutoController repository;
+		private ProdutoRepositorio repository;
 		
 		@GetMapping
 		public ResponseEntity <List<ProdutoModel>> getAll() {
