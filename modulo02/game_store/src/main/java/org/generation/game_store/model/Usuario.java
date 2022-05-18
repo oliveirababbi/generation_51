@@ -9,40 +9,54 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
 @Entity
 @Table(name = "tb_user")
 public class Usuario {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
+	private Long id;
 	
-	@NotBlank
+	@NotBlank(message = "O atributo Usuário é Obrigatório!")
 	@Size(min = 2, max = 100)
 	private String name;
 	
 	@NotBlank
-	@Size(min = 5, max = 15)
+	@Size(min = 5, max = 150)
+	@Schema(example = "email@email.com.br")
+	@Email(message = "O atributo Usuário deve ser um email válido!")
 	private String username;
 	
 	@NotBlank
-	@Size(min = 6, max = 10)
 	private String password;
 	
 	@OneToMany(mappedBy = "usuario", cascade = CascadeType.REMOVE)
 	@JsonIgnoreProperties("usuario")
 	private List<ProdutoModel> produto;
+	
+	public Usuario(Long id, String name, String username, String password) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.username = username;
+		this.password = password;
+	}
 
-	public long getId() {
+	public Usuario() {
+	}
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 

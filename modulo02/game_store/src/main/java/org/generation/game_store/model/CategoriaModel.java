@@ -12,6 +12,8 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 @Entity
 @Table(name = "tb_category")
 public class CategoriaModel {
@@ -25,10 +27,22 @@ public class CategoriaModel {
 	private String nameCateg;
 	
 	@OneToMany(mappedBy = "categoria", cascade = CascadeType.REMOVE)
+	@JsonIgnoreProperties("categoria")
 	private List<ProdutoModel> produtos;
 
 	public List<ProdutoModel> getProdutos() {
 		return produtos;
+	}
+
+	public CategoriaModel(Long id, String nameCateg,
+			List<ProdutoModel> produtos) {
+		super();
+		this.id = id;
+		this.nameCateg = nameCateg;
+		this.produtos = produtos;
+	}
+
+	public CategoriaModel() {
 	}
 
 	public void setProdutos(List<ProdutoModel> produtos) {

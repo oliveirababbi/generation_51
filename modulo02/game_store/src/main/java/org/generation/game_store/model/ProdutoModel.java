@@ -2,18 +2,17 @@ package org.generation.game_store.model;
 
 import java.math.BigDecimal;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Positive;
 import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name = "tb_product")
@@ -34,8 +33,25 @@ public class ProdutoModel {
     private BigDecimal price;
 	
 	@ManyToOne
+	@JsonIgnoreProperties("produtos")
 	private CategoriaModel categoria;
+	
+	@ManyToOne
+	@JsonIgnoreProperties("usuario")
+	private Usuario usuario;
 
+	public ProdutoModel(Long id, String nameProd,  int stock, BigDecimal price, CategoriaModel categoria) {
+		super();
+		this.id = id;
+		this.nameProd = nameProd;
+		this.stock = stock;
+		this.price = price;
+		this.categoria = categoria;
+	}
+	
+	public ProdutoModel() {
+	}
+	
 	public CategoriaModel getCategoria() {
 		return categoria;
 	}

@@ -2,7 +2,7 @@ package org.generation.game_store.model;
 
 public class UsuarioLogin {
 	
-	private long id;
+	private Long id;
 	
 	private String name;
 	
@@ -12,11 +12,11 @@ public class UsuarioLogin {
 	
 	private String token;
 
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
