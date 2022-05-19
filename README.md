@@ -5,7 +5,7 @@
 
 ### 📝CONTEÚDO:
 
-##### MÓDULO I:
+<b>MÓDULO I:</b>
 
 ✔️ Lógica da Programação;
 
@@ -15,14 +15,25 @@
 
 🐇Projeto Java I: Good Habits.
 
-##### MÓDULO II:
+<b>MÓDULO II:</b>
 
 ✔️ Banco de Dados (MySQL);
 
-✔️ Criação de um blog pessoal com Spring Boot;
+✔️ Criação de uma aplicação no back end de uma farmácia;
 
-🦀 Projeto Java II: Mangrove;
+✔️ Criação do back end de um blog pessoal;
 
+✔️ Criação do back end de uma loja de jogos;
+
+🦀 Back end do Projeto Java: <a href ="https://github.com/oliveirababbi/mangrove_project"> Mangrove;</a>
+
+<b>MÓDULO II:</b>
+
+✔️ HTML;
+
+✔️ CSS;
+
+✔️ JavaScript;
 
 Elaborado por @BabbiOliveira🏳️‍🌈 
 Entre em contato!
