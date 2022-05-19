@@ -13,7 +13,7 @@
 
 ✔️ Programação Orientada a Objetos (Java);
 
-🐇Projeto Java I: Good Habits.
+🐇Projeto Java I: <a href ="https://github.com/oliveirababbi/good_habits"> Good Habits</a>.
 
 <b>MÓDULO II:</b>
 
