@@ -1,0 +1,12 @@
+
+/* Estilos da página aboutme.html */
+.center {
+    text-align: center;
+}
+
+.container {
+    display: center;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
