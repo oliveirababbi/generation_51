@@ -35,6 +35,22 @@
 
 ✔️ JavaScript;
 
+✔️ Bootstrap;
+
+✔️ TypeScript;
+
+✔️ Angular;
+
+✔️ Criação de uma landing page;
+
+✔️ Criação de uma tela inicial com navegação; 
+
+✔️ Criação do front end do blog pessoal (criado no módulo II);
+
+🦀 Front end do Projeto Java: <a href ="https://github.com/oliveirababbi/mangrove_project"> Mangrove;</a>
+
+
+
 Elaborado por @BabbiOliveira🏳️‍🌈 
 Entre em contato!
 <div align="left">
