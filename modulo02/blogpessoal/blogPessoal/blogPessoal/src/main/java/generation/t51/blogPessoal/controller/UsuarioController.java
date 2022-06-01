@@ -2,9 +2,7 @@ package generation.t51.blogPessoal.controller;
 
 import java.util.List;
 import java.util.Optional;
-
 import javax.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -16,7 +14,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import generation.t51.blogPessoal.model.Usuario;
 import generation.t51.blogPessoal.model.UsuarioLogin;
 import generation.t51.blogPessoal.repository.UsuarioRepository;
@@ -47,14 +44,14 @@ public class UsuarioController {
 	}
 	
 
-	@PostMapping("/login")
+	@PostMapping("/logar")
 	public ResponseEntity<UsuarioLogin> login(@RequestBody Optional<UsuarioLogin> usuarioLogin) {
 		return usuarioService.autenticarUsuario(usuarioLogin)
 			.map(resposta -> ResponseEntity.ok(resposta))
 			.orElse(ResponseEntity.status(HttpStatus.UNAUTHORIZED).build());
 	}
 
-	@PostMapping("/cadastro")
+	@PostMapping("/cadastrar")
 	public ResponseEntity<Usuario> postUsuario(@Valid @RequestBody Usuario usuario) {
 
 		return usuarioService.cadastrarUsuario(usuario)
